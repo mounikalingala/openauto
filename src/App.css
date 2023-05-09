@@ -1,0 +1,16 @@
+@media screen and (max-width:768px) {
+    .info-container{
+        display: none;
+    }
+    .bg-container{
+        min-height: 100vh;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .info-container{
+        display: flex;
+    }
+    
+}
